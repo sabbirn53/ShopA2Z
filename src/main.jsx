@@ -29,7 +29,11 @@ const router=createBrowserRouter([
       {path:"/shop", element:<Shop/>}
     ]
   },
-]);
+],
+{
+  basename: "/ShopA2Z", // Set to match your repo name
+}
+);
 
 createRoot(document.getElementById('root')).render(
     <RouterProvider router={router}/>

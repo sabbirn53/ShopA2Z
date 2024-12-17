@@ -203,8 +203,10 @@ footer {
 }
 
 .footer-bottom {
+    padding-left:6px;
     padding: 35px 0;
     background: $white-color;
+    text-align: center;
 
     .section-wrapper {
         align-items: center;

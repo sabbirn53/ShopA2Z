@@ -1,13 +1,13 @@
 {
   "name": "shopa2z",
-  "homepage": "https://sabbirn53.github.io/ShopA2Z",
+  "homepage": "https://sabbirn53.github.io/ShopA2Z/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

@@ -248,7 +248,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom justify-items-center">
-            <div className="container ">
+            <div className="container">
                 <div className="section-wrapper">
                     <p className='footerText'>&copy;<Link to="/">ShopA2Z</Link>2024 @ All rights reserved by <a href="www.facebook.com/sabbirn53"><b>SHUVO</b></a></p>
                 </div>
