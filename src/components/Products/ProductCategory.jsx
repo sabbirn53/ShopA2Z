@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import Ratting from '../Rating/Ratting';
 import { Link, Links } from 'react-router-dom';
+import shoes from "../../assets/images/categoryTab/01.jpg"
 
 
 const ProductData = [
     {
-    imgUrl: 'src/assets/images/categoryTab/01.jpg',
+    imgUrl: {shoes},
     cate: 'Shoes',
     title: 'Nike Premier X',
     author: 'assets/images/course/author/01.jpg',
