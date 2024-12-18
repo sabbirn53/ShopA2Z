@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, Links } from "react-router-dom";
 import camera from "../../assets/images/category/Products/01.jpg"
-import shoe from "../../assets/images/category/Products/01.jpg"
-import photograpy from "../../assets/images/category/Products/01.jpg"
-import dress from "../../assets/images/category/Products/01.jpg"
-import bags from "../../assets/images/category/Products/01.jpg"
-import decor from "../../assets/images/category/Products/01.jpg"
+import shoe from "../../assets/images/category/Products/02.jpg"
+import photograpy from "../../assets/images/category/Products/03.jpg"
+import dress from "../../assets/images/category/Products/04.jpg"
+import bags from "../../assets/images/category/Products/05.jpg"
+import decor from "../../assets/images/category/Products/06.jpg"
 
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
