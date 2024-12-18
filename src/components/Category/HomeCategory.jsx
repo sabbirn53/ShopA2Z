@@ -1,5 +1,11 @@
 import React from "react";
 import { Link, Links } from "react-router-dom";
+import camera from "../../assets/images/category/Products/01.jpg"
+import shoe from "../../assets/images/category/Products/01.jpg"
+import photograpy from "../../assets/images/category/Products/01.jpg"
+import dress from "../../assets/images/category/Products/01.jpg"
+import bags from "../../assets/images/category/Products/01.jpg"
+import decor from "../../assets/images/category/Products/01.jpg"
 
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
@@ -7,37 +13,37 @@ const btnText = "Get Started Now";
 
 const categoryList = [
   {
-    imgUrl: "src/assets/images/category/Products/01.jpg",
+    imgUrl: camera,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "DSLR Camera",
   },
   {
-    imgUrl: "src/assets/images/category/Products/02.jpg",
+    imgUrl: shoe,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Shoes",
   },
   {
-    imgUrl: "src/assets/images/category/Products/03.jpg",
+    imgUrl: photograpy,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Photography",
   },
   {
-    imgUrl: "src/assets/images/category/Products/04.jpg",
+    imgUrl: dress,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Formal Dress",
   },
   {
-    imgUrl: "src/assets/images/category/Products/05.jpg",
+    imgUrl: bags,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Colorful Bags",
   },
   {
-    imgUrl: "src/assets/images/category/Products/06.jpg",
+    imgUrl: decor,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Home Decor",
