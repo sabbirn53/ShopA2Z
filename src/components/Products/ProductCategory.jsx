@@ -2,11 +2,20 @@ import React, { useState } from 'react'
 import Ratting from '../Rating/Ratting';
 import { Link, Links } from 'react-router-dom';
 import shoes from "../../assets/images/categoryTab/01.jpg"
+import bags from "../../assets/images/categoryTab/02.jpg"
+import phone from "../../assets/images/categoryTab/03.jpg"
+import bags2 from "../../assets/images/categoryTab/04.jpg"
+import shoes2 from "../../assets/images/categoryTab/05.jpg"
+import beauty from "../../assets/images/categoryTab/06.jpg"
+import bags3 from "../../assets/images/categoryTab/07.jpg"
+import shoes3 from "../../assets/images/categoryTab/08.jpg"
+import shade1 from "../../assets/images/shape-img/01.jpg"
+
 
 
 const ProductData = [
     {
-    imgUrl: {shoes},
+    imgUrl: shoes,
     cate: 'Shoes',
     title: 'Nike Premier X',
     author: 'assets/images/course/author/01.jpg',
@@ -15,7 +24,7 @@ const ProductData = [
     id: 1,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/02.jpg',
+    imgUrl: bags,
     cate: 'Bags',
     title: 'Asthetic Bags',
     author: 'assets/images/course/author/02.jpg',
@@ -24,7 +33,7 @@ const ProductData = [
     id: 2,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/03.jpg',
+    imgUrl: phone,
     cate: 'Phones',
     title: 'iPhone 12',
     author: 'src/assets/images/categoryTab/brand/apple.png',
@@ -33,7 +42,7 @@ const ProductData = [
     id: 3,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/04.jpg',
+    imgUrl: bags2,
     cate: 'Bags',
     title: 'Hiking Bag 15 Nh100',
     author: 'assets/images/course/author/04.jpg',
@@ -42,7 +51,7 @@ const ProductData = [
     id: 4,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/05.jpg',
+    imgUrl: shoes2,
     cate: 'Shoes',
     title: 'Outdoor Sports Shoes',
     author: 'assets/images/course/author/05.jpg',
@@ -51,7 +60,7 @@ const ProductData = [
     id: 5,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/06.jpg',
+    imgUrl: beauty,
     cate: 'Beauty',
     title: 'COSRX Snail Mucin',
     author: 'assets/images/course/author/06.jpg',
@@ -60,7 +69,7 @@ const ProductData = [
     id: 6,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/07.jpg',
+    imgUrl: bags3,
     cate: 'Bags',
     title: 'Look Less Chanel Bag ',
     author: 'assets/images/course/author/01.jpg',
@@ -69,7 +78,7 @@ const ProductData = [
     id: 7,
     },
     {
-    imgUrl: 'src/assets/images/categoryTab/08.jpg',
+    imgUrl: shoes3,
     cate: 'Shoes',
     title: 'Casual Sneakers',
     author: 'assets/images/course/author/02.jpg',
@@ -90,10 +99,10 @@ const ProductData = [
         return (
           <div className='course-section style-3 padding-tb'>
             <div className="course-shape one">
-              <img src="/src/assets/images/shape-img/01.jpg" alt="Shape One" />
+              <img src= {shade1} alt="Shape One" />
             </div>
             <div className="course-shape two">
-              <img src="/src/assets/images/shape-img/01.jpg" alt="Shape Two" />
+              <img src= {shade1} alt="Shape Two" />
             </div>
       
             <div className="container">

@@ -7,37 +7,37 @@ const btnText = "Get Started Now";
 
 const categoryList = [
   {
-    imgUrl: "src/assets/images/category/01.jpg",
+    imgUrl: "src/assets/images/category/Products/01.jpg",
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "DSLR Camera",
   },
   {
-    imgUrl: "src/assets/images/category/02.jpg",
+    imgUrl: "src/assets/images/category/Products/02.jpg",
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Shoes",
   },
   {
-    imgUrl: "src/assets/images/category/03.jpg",
+    imgUrl: "src/assets/images/category/Products/03.jpg",
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Photography",
   },
   {
-    imgUrl: "src/assets/images/category/04.jpg",
+    imgUrl: "src/assets/images/category/Products/04.jpg",
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Formal Dress",
   },
   {
-    imgUrl: "src/assets/images/category/05.jpg",
+    imgUrl: "src/assets/images/category/Products/05.jpg",
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Colorful Bags",
   },
   {
-    imgUrl: "src/assets/images/category/06.jpg",
+    imgUrl: "src/assets/images/category/Products/06.jpg",
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-shopping-cart",
     title: "Home Decor",
